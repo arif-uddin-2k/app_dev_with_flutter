@@ -1,7 +1,7 @@
-import 'Media.dart';
+import 'media.dart';
 
 class Song extends Media {
-  String artistName;
+  String? artistName;
   Song(this.artistName);
   @override
   void play(){
