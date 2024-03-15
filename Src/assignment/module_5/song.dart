@@ -9,6 +9,7 @@ class Song extends Media {
   String? get artistName {
     return _artistName;
   }
+
   //setter method for private attribute
   set artistName(String? artistName) {
     _artistName = artistName;
